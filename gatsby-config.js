@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Saturno`,
+    name: `Thiago Crespo`,
     description: `Esse é um blog realizado por Thiago Crespo para praticar os conceitos sobre GraphQL e Gatsby, espero que você goste `,
     author: `@ThiagoFelippi`,
   },
