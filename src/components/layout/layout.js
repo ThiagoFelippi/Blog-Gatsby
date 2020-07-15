@@ -4,22 +4,17 @@ import PropTypes from "prop-types"
 import Header from "../header/"
 import "./layout.css"
 
-import { Content } from './style'
+import { Container, Content } from './style'
 
 const Layout = ({ children }) => {
 
   return (
-    <>
+    <Container>
       <Header/>
       <Content>
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
       </Content>
-    </>
+    </Container>
   )
 }
 

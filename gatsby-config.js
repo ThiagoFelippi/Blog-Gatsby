@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Saturno`,
-    description: `Saturn blog is created for practice Gatsby and GraphQL`,
+    description: `Esse é um blog realizado por Thiago Crespo para praticar os conceitos sobre GraphQL e Gatsby, espero que você goste `,
     author: `@ThiagoFelippi`,
   },
   plugins: [

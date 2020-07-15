@@ -2,8 +2,8 @@ import React from 'react';
 
 // import { Container } from './styles';
 
-function PageTwo() {
+function About() {
   return <div />;
 }
 
-export default PageTwo;
+export default About;
