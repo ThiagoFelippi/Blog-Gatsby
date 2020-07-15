@@ -2,12 +2,13 @@ import React from "react"
 
 import Layout from "../components/layout/layout"
 import SEO from "../components/seo"
-import About from '../components/about/index'
+
+import Introduction from '../components/introduction/index'
 
 const Pages = () => (
-  <Layout>
+  <Layout style={{background: 'red'}}>
     <SEO title="About" />
-    <h1> Ola </h1>
+    <Introduction />
   </Layout>
 )
 
